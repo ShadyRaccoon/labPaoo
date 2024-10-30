@@ -52,3 +52,21 @@ const char* CafeaComandata::getDiverse(){
 const char* CafeaComandata::getCafea(){
     return this->cafea;
 }
+
+void CafeaComandata::setPret(int Pret){
+    this->pret = Pret;
+}
+
+void CafeaComandata::setIngrediente(std::list<std::string> ingrediente){
+    this->ingrediente = ingrediente;
+}
+
+void CafeaComandata::setDiverse(char* diverse){
+    this->diverse = new char[strlen(diverse) + 1];
+    strcpy(this->diverse, diverse);
+}
+
+void CafeaComandata::setCafea(char* cafea){
+    this->cafea = new char[strlen(cafea) + 1];
+    strcpy(this->cafea, cafea);
+}

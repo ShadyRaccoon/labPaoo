@@ -23,4 +23,9 @@ public:
     const std::list<std::string> getIngrediente();
     const char* getDiverse();
     const char* getCafea();
+
+    void setPret(int pret);
+    void setIngrediente(std::list<std::string> ingrediente);
+    void setDiverse(char* diverse);
+    void setCafea(char* cafea);
 };
