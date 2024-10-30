@@ -12,11 +12,17 @@ CafeaComandata::CafeaComandata(int pret, std::list<std::string> ingrediente, cha
 }
 
 CafeaComandata::CafeaComandata(const CafeaComandata& other){
-
+    
 };
 
 CafeaComandata::CafeaComandata(CafeaComandata&& other){
-    
+    this->pret = other.pret;
+    this->ingrediente = std::move(other.ingrediente);
+    this->diverse = other.diverse;
+    this->cafea = other.cafea;
+
+    this->cafea = nullptr;
+    this->diverse = nullptr;
 }
 
 CafeaComandata::~CafeaComandata(){
