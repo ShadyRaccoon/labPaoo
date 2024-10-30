@@ -19,4 +19,8 @@ public:
     CafeaComandata(const CafeaComandata& other);
     CafeaComandata(CafeaComandata&& other);
     ~CafeaComandata();
+    const int getPret();
+    const std::list<std::string> getIngrediente();
+    const char* getDiverse();
+    const char* getCafea();
 };

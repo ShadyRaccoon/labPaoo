@@ -28,11 +28,27 @@ CafeaComandata::CafeaComandata(CafeaComandata&& other){
     this->diverse = other.diverse;
     this->cafea = other.cafea;
 
-    this->cafea = nullptr;
-    this->diverse = nullptr;
+    other.cafea = nullptr;
+    other.diverse = nullptr;
 }
 
 CafeaComandata::~CafeaComandata(){
     delete[] diverse;
     delete[] cafea;
+}
+
+const int CafeaComandata::getPret(){
+    return this->pret;
+}
+
+const std::list<std::string> CafeaComandata::getIngrediente(){
+    return this->ingrediente;
+}
+
+const char* CafeaComandata::getDiverse(){
+    return this->diverse;
+}
+
+const char* CafeaComandata::getCafea(){
+    return this->cafea;
 }
