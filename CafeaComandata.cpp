@@ -12,7 +12,14 @@ CafeaComandata::CafeaComandata(int pret, std::list<std::string> ingrediente, cha
 }
 
 CafeaComandata::CafeaComandata(const CafeaComandata& other){
-    
+    this->pret = other.pret;
+    this->ingrediente = other.ingrediente;
+
+    this->diverse = new char[strlen(other.diverse) + 1];
+    strcpy(this->diverse, other.diverse);
+
+    this->cafea = new char[strlen(other.cafea) + 1];
+    strcpy(this->cafea, other.cafea);
 };
 
 CafeaComandata::CafeaComandata(CafeaComandata&& other){
