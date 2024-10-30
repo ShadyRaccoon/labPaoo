@@ -3,6 +3,7 @@
 
 #include <list>
 #include <string>
+#include <string.h>
 
 class CafeaComandata{
 private: 
