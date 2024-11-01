@@ -76,6 +76,6 @@ void CafeaComandata::display(){
     std::cout << "Pret: " << this->pret << " lei" << std::endl;
     for(std::string i : this->ingrediente)
         std::cout << i << '|';
-    std::cout << this->diverse;
-    std::cout << this->cafea;
+    std::cout << std::endl << this->diverse << std::endl;
+    std::cout << this->cafea << std::endl;
 }
