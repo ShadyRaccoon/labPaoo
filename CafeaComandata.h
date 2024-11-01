@@ -1,6 +1,3 @@
-//honestly am facut treaba asta pentru ca am aflat de 
-//include guards si mi se pare un obicei bun de deprins
-
 #include <list>
 #include <string>
 #include <string.h>
