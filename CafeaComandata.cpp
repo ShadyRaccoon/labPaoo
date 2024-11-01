@@ -31,7 +31,7 @@ CafeaComandata::CafeaComandata(CafeaComandata&& other){
 
 
     other.pret = 0;
-    other.ingrediente = {};
+    other.ingrediente.clear();
     other.cafea = nullptr;
     other.diverse = nullptr;
 }
