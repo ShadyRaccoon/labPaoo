@@ -1,0 +1,2 @@
+/home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles/edit_cache.dir
+/home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles/rebuild_cache.dir
