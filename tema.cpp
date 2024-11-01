@@ -6,7 +6,7 @@ int main(int argc, char** argv){
     std::cout << "Primul obj cafea" << std::endl;
     c1.display();
 
-    //folosire copy constructor
+    //FOLOSIRE COPY CONSTRUCTOR
     CafeaComandata c2 = c1;
     std::cout << "Copie nealterata" << std::endl;
     c2.display();
@@ -18,5 +18,15 @@ int main(int argc, char** argv){
     c2.display();
     std::cout << "Originalul" << std::endl;
     c1.display();
+
+    //FOLOSIRE MOVE CONSTRUCTOR
+    CafeaComandata c3 = std::move(c1);
+    std::cout << "Obiectul mutat:" << std::endl;
+    c3.display();
+
+    std::cout << "Obiectul original dupa mutare:" << std::endl;
+    c1.display();
+
     return 0;
+
 }

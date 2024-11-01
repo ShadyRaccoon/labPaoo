@@ -10,6 +10,8 @@ CafeaComandata::CafeaComandata(int pret, std::list<std::string> ingrediente, cha
     
     this->cafea = new char[strlen(cafea) + 1];
     strcpy(this->cafea, cafea);
+
+    std::cout << "Constructor normal apelat!" << std::endl;
 }
 
 CafeaComandata::CafeaComandata(const CafeaComandata& other){
@@ -21,7 +23,8 @@ CafeaComandata::CafeaComandata(const CafeaComandata& other){
 
     this->cafea = new char[strlen(other.cafea) + 1];
     strcpy(this->cafea, other.cafea);
-};
+    std::cout << "Copy constructor apelat!" << std::endl;
+}
 
 CafeaComandata::CafeaComandata(CafeaComandata&& other){
     this->pret = other.pret;
@@ -34,11 +37,15 @@ CafeaComandata::CafeaComandata(CafeaComandata&& other){
     other.ingrediente.clear();
     other.cafea = nullptr;
     other.diverse = nullptr;
+
+    std::cout << "Move constructor apelat!" << std::endl;
 }
 
 CafeaComandata::~CafeaComandata(){
     delete[] diverse;
     delete[] cafea;
+
+    std::cout << "Destructor apelat!" << std::endl;
 }
 
 const int CafeaComandata::getPret(){
