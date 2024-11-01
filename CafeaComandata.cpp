@@ -29,6 +29,9 @@ CafeaComandata::CafeaComandata(CafeaComandata&& other){
     this->diverse = other.diverse;
     this->cafea = other.cafea;
 
+
+    other.pret = 0;
+    other.ingrediente = {};
     other.cafea = nullptr;
     other.diverse = nullptr;
 }
