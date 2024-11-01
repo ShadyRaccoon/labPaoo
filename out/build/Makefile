@@ -116,6 +116,67 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named cafea
+
+# Build rule for target.
+cafea: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cafea
+.PHONY : cafea
+
+# fast build rule for target.
+cafea/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/build
+.PHONY : cafea/fast
+
+CafeaComandata.o: CafeaComandata.cpp.o
+.PHONY : CafeaComandata.o
+
+# target to build an object file
+CafeaComandata.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaComandata.cpp.o
+.PHONY : CafeaComandata.cpp.o
+
+CafeaComandata.i: CafeaComandata.cpp.i
+.PHONY : CafeaComandata.i
+
+# target to preprocess a source file
+CafeaComandata.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaComandata.cpp.i
+.PHONY : CafeaComandata.cpp.i
+
+CafeaComandata.s: CafeaComandata.cpp.s
+.PHONY : CafeaComandata.s
+
+# target to generate assembly for a file
+CafeaComandata.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaComandata.cpp.s
+.PHONY : CafeaComandata.cpp.s
+
+tema.o: tema.cpp.o
+.PHONY : tema.o
+
+# target to build an object file
+tema.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/tema.cpp.o
+.PHONY : tema.cpp.o
+
+tema.i: tema.cpp.i
+.PHONY : tema.i
+
+# target to preprocess a source file
+tema.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/tema.cpp.i
+.PHONY : tema.cpp.i
+
+tema.s: tema.cpp.s
+.PHONY : tema.s
+
+# target to generate assembly for a file
+tema.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/tema.cpp.s
+.PHONY : tema.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cafea"
+	@echo "... CafeaComandata.o"
+	@echo "... CafeaComandata.i"
+	@echo "... CafeaComandata.s"
+	@echo "... tema.o"
+	@echo "... tema.i"
+	@echo "... tema.s"
 .PHONY : help
 
 
