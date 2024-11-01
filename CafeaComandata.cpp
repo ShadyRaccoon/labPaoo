@@ -1,4 +1,5 @@
 #include "CafeaComandata.h"
+#include <iostream>
 
 CafeaComandata::CafeaComandata(int pret, std::list<std::string> ingrediente, char* diverse, char* cafea){
     this->pret = pret;
@@ -69,4 +70,12 @@ void CafeaComandata::setDiverse(char* diverse){
 void CafeaComandata::setCafea(char* cafea){
     this->cafea = new char[strlen(cafea) + 1];
     strcpy(this->cafea, cafea);
+}
+
+void CafeaComandata::display(){
+    std::cout << "Pret: " << this->pret << " lei" << std::endl;
+    for(std::string i : this->ingrediente)
+        std::cout << i << '|';
+    std::cout << this->diverse;
+    std::cout << this->cafea;
 }

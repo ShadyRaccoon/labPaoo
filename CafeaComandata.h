@@ -28,4 +28,6 @@ public:
     void setIngrediente(std::list<std::string> ingrediente);
     void setDiverse(char* diverse);
     void setCafea(char* cafea);
+
+    void display();
 };
