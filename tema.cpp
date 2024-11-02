@@ -1,18 +1,18 @@
 #include <iostream>
-#include "CafeaComandata.hpp"
+#include "CafeaCopyMove.hpp"
 
 void printLines(){
     std::cout<<"--------------------------------------------------------------\n";
 }
 
 void demonstratie(){
-    CafeaComandata c1(25, {"Lapte", "Cafea", "Pumpkin spice", "Scortisoara"}, "Serveste cu scortisoara extra", "Pumpkin Spice Latte");
+    CafeaCopyMove c1(25, {"Lapte", "Cafea", "Pumpkin spice", "Scortisoara"}, "Serveste cu scortisoara extra", "Pumpkin Spice Latte");
     std::cout << "Primul obj cafea" << std::endl;
     c1.display();
     printLines();
 
     //FOLOSIRE COPY CONSTRUCTOR
-    CafeaComandata c2 = c1;
+    CafeaCopyMove c2 = c1;
     std::cout << "Copie nealterata" << std::endl;
     c2.display();
     printLines();
@@ -31,7 +31,7 @@ void demonstratie(){
 
 
     //FOLOSIRE MOVE CONSTRUCTOR
-    CafeaComandata c3 = std::move(c1);
+    CafeaCopyMove c3 = std::move(c1);
     std::cout << "Obiectul mutat:" << std::endl;
     c3.display();
     printLines();
