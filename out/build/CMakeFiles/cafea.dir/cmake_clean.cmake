@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cafea.dir/CafeaBase.cpp.o"
+  "CMakeFiles/cafea.dir/CafeaBase.cpp.o.d"
   "CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o"
   "CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o.d"
   "CMakeFiles/cafea.dir/tema.cpp.o"

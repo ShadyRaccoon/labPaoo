@@ -1,7 +1,7 @@
-CMakeFiles/cafea.dir/CafeaComandata.cpp.o: \
- /home/bogdan/Desktop/tema1PAOO/CafeaComandata.cpp \
+CMakeFiles/cafea.dir/CafeaBase.cpp.o: \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/CafeaBase.cpp \
  /usr/include/stdc-predef.h \
- /home/bogdan/Desktop/tema1PAOO/CafeaComandata.hpp \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/CafeaBase.hpp \
  /usr/include/c++/14/list /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

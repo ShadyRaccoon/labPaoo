@@ -1,4 +1,5 @@
-CMakeFiles/cafea.dir/tema.cpp.o: /home/bogdan/Desktop/tema1PAOO/tema.cpp \
+CMakeFiles/cafea.dir/tema.cpp.o: \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/tema.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
@@ -123,9 +124,10 @@ CMakeFiles/cafea.dir/tema.cpp.o: /home/bogdan/Desktop/tema1PAOO/tema.cpp \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.hpp \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/CafeaCopyMove.hpp \
  /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/ext/aligned_buffer.h \
  /usr/include/c++/14/bits/list.tcc /usr/include/string.h \
- /usr/include/strings.h
+ /usr/include/strings.h \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/CafeaBase.hpp

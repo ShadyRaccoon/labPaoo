@@ -15,14 +15,14 @@ CafeaCopyMove::CafeaCopyMove(int pret, std::list<std::string> ingrediente, char*
 }
 
 CafeaCopyMove::CafeaCopyMove(const CafeaCopyMove& other){
-    this->pret = other.pret;
-    this->ingrediente = other.ingrediente;
+    pret = other.pret;
+    ingrediente = other.ingrediente;
 
-    this->diverse = new char[strlen(other.diverse) + 1];
-    strcpy(this->diverse, other.diverse);
+    diverse = new char[strlen(other.diverse) + 1];
+    strcpy(diverse, other.diverse);
 
-    this->cafea = new char[strlen(other.cafea) + 1];
-    strcpy(this->cafea, other.cafea);
+    cafea = new char[strlen(other.cafea) + 1];
+    strcpy(cafea, other.cafea);
     std::cout << "Copy constructor apelat!" << std::endl;
 }
 
@@ -32,11 +32,13 @@ CafeaCopyMove::CafeaCopyMove(CafeaCopyMove&& other){
     this->diverse = other.diverse;
     this->cafea = other.cafea;
 
-
+    //lasam obiectul intr-o stare valida
     other.pret = 0;
     other.ingrediente.clear();
-    other.cafea = nullptr;
-    other.diverse = nullptr;
+    other.diverse = new char[1];
+    other.diverse[0] = '\0'; 
+    other.cafea = new char[1];
+    other.cafea[0] = '\0';
 
     std::cout << "Move constructor apelat!" << std::endl;
 }

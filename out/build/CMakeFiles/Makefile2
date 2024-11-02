@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdan/Desktop/tema1PAOO
+CMAKE_SOURCE_DIR = /home/bogdan/Desktop/tema1PAOO/labPaoo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdan/Desktop/tema1PAOO/out/build
+CMAKE_BINARY_DIR = /home/bogdan/Desktop/tema1PAOO/labPaoo/out/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/cafea.dir/clean
 CMakeFiles/cafea.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles --progress-num=1,2,3 "Built target cafea"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdan/Desktop/tema1PAOO/labPaoo/out/build/CMakeFiles --progress-num=1,2,3,4 "Built target cafea"
 .PHONY : CMakeFiles/cafea.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cafea.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/Desktop/tema1PAOO/labPaoo/out/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cafea.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/Desktop/tema1PAOO/labPaoo/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/cafea.dir/rule
 
 # Convenience name for target.

@@ -11,6 +11,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)	 
 # we request -std=c++14 in the compiler  flags instead of –std=gnu++14
 
-add_executable(${PROJECT_NAME} tema.cpp CafeaCopyMove.cpp CafeaCopyMove.hpp)	
+add_executable(${PROJECT_NAME} tema.cpp CafeaCopyMove.cpp CafeaCopyMove.hpp CafeaBase.cpp CafeaBase.hpp)	
 #we can add headers into the executable definition
 

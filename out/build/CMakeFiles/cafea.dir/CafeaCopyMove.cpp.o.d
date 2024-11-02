@@ -1,7 +1,7 @@
 CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o: \
- /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.cpp \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/CafeaCopyMove.cpp \
  /usr/include/stdc-predef.h \
- /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.hpp \
+ /home/bogdan/Desktop/tema1PAOO/labPaoo/CafeaCopyMove.hpp \
  /usr/include/c++/14/list /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
