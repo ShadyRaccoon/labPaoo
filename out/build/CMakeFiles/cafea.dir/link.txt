@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/cafea.dir/tema.cpp.o CMakeFiles/cafea.dir/CafeaComandata.cpp.o -o cafea 
+/usr/bin/c++ -rdynamic CMakeFiles/cafea.dir/tema.cpp.o CMakeFiles/cafea.dir/CafeaComandata.cpp.o -o cafea 
