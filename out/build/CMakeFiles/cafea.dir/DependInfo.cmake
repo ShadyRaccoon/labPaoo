@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bogdan/Desktop/tema1PAOO/CafeaComandata.cpp" "CMakeFiles/cafea.dir/CafeaComandata.cpp.o" "gcc" "CMakeFiles/cafea.dir/CafeaComandata.cpp.o.d"
+  "/home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.cpp" "CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o" "gcc" "CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o.d"
   "/home/bogdan/Desktop/tema1PAOO/tema.cpp" "CMakeFiles/cafea.dir/tema.cpp.o" "gcc" "CMakeFiles/cafea.dir/tema.cpp.o.d"
   )
 

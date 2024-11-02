@@ -129,29 +129,29 @@ cafea/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/build
 .PHONY : cafea/fast
 
-CafeaComandata.o: CafeaComandata.cpp.o
-.PHONY : CafeaComandata.o
+CafeaCopyMove.o: CafeaCopyMove.cpp.o
+.PHONY : CafeaCopyMove.o
 
 # target to build an object file
-CafeaComandata.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaComandata.cpp.o
-.PHONY : CafeaComandata.cpp.o
+CafeaCopyMove.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o
+.PHONY : CafeaCopyMove.cpp.o
 
-CafeaComandata.i: CafeaComandata.cpp.i
-.PHONY : CafeaComandata.i
+CafeaCopyMove.i: CafeaCopyMove.cpp.i
+.PHONY : CafeaCopyMove.i
 
 # target to preprocess a source file
-CafeaComandata.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaComandata.cpp.i
-.PHONY : CafeaComandata.cpp.i
+CafeaCopyMove.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaCopyMove.cpp.i
+.PHONY : CafeaCopyMove.cpp.i
 
-CafeaComandata.s: CafeaComandata.cpp.s
-.PHONY : CafeaComandata.s
+CafeaCopyMove.s: CafeaCopyMove.cpp.s
+.PHONY : CafeaCopyMove.s
 
 # target to generate assembly for a file
-CafeaComandata.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaComandata.cpp.s
-.PHONY : CafeaComandata.cpp.s
+CafeaCopyMove.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cafea.dir/build.make CMakeFiles/cafea.dir/CafeaCopyMove.cpp.s
+.PHONY : CafeaCopyMove.cpp.s
 
 tema.o: tema.cpp.o
 .PHONY : tema.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cafea"
-	@echo "... CafeaComandata.o"
-	@echo "... CafeaComandata.i"
-	@echo "... CafeaComandata.s"
+	@echo "... CafeaCopyMove.o"
+	@echo "... CafeaCopyMove.i"
+	@echo "... CafeaCopyMove.s"
 	@echo "... tema.o"
 	@echo "... tema.i"
 	@echo "... tema.s"

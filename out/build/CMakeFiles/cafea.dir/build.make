@@ -83,30 +83,30 @@ CMakeFiles/cafea.dir/tema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cafea.dir/tema.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Desktop/tema1PAOO/tema.cpp -o CMakeFiles/cafea.dir/tema.cpp.s
 
-CMakeFiles/cafea.dir/CafeaComandata.cpp.o: CMakeFiles/cafea.dir/flags.make
-CMakeFiles/cafea.dir/CafeaComandata.cpp.o: /home/bogdan/Desktop/tema1PAOO/CafeaComandata.cpp
-CMakeFiles/cafea.dir/CafeaComandata.cpp.o: CMakeFiles/cafea.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cafea.dir/CafeaComandata.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cafea.dir/CafeaComandata.cpp.o -MF CMakeFiles/cafea.dir/CafeaComandata.cpp.o.d -o CMakeFiles/cafea.dir/CafeaComandata.cpp.o -c /home/bogdan/Desktop/tema1PAOO/CafeaComandata.cpp
+CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o: CMakeFiles/cafea.dir/flags.make
+CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o: /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.cpp
+CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o: CMakeFiles/cafea.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o -MF CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o.d -o CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o -c /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.cpp
 
-CMakeFiles/cafea.dir/CafeaComandata.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cafea.dir/CafeaComandata.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Desktop/tema1PAOO/CafeaComandata.cpp > CMakeFiles/cafea.dir/CafeaComandata.cpp.i
+CMakeFiles/cafea.dir/CafeaCopyMove.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cafea.dir/CafeaCopyMove.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.cpp > CMakeFiles/cafea.dir/CafeaCopyMove.cpp.i
 
-CMakeFiles/cafea.dir/CafeaComandata.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cafea.dir/CafeaComandata.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Desktop/tema1PAOO/CafeaComandata.cpp -o CMakeFiles/cafea.dir/CafeaComandata.cpp.s
+CMakeFiles/cafea.dir/CafeaCopyMove.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cafea.dir/CafeaCopyMove.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.cpp -o CMakeFiles/cafea.dir/CafeaCopyMove.cpp.s
 
 # Object files for target cafea
 cafea_OBJECTS = \
 "CMakeFiles/cafea.dir/tema.cpp.o" \
-"CMakeFiles/cafea.dir/CafeaComandata.cpp.o"
+"CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o"
 
 # External object files for target cafea
 cafea_EXTERNAL_OBJECTS =
 
 cafea: CMakeFiles/cafea.dir/tema.cpp.o
-cafea: CMakeFiles/cafea.dir/CafeaComandata.cpp.o
+cafea: CMakeFiles/cafea.dir/CafeaCopyMove.cpp.o
 cafea: CMakeFiles/cafea.dir/build.make
 cafea: CMakeFiles/cafea.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bogdan/Desktop/tema1PAOO/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cafea"

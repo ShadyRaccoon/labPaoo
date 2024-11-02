@@ -123,7 +123,7 @@ CMakeFiles/cafea.dir/tema.cpp.o: /home/bogdan/Desktop/tema1PAOO/tema.cpp \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /home/bogdan/Desktop/tema1PAOO/CafeaComandata.hpp \
+ /home/bogdan/Desktop/tema1PAOO/CafeaCopyMove.hpp \
  /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/ext/aligned_buffer.h \
