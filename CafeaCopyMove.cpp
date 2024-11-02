@@ -1,7 +1,7 @@
-#include "CafeaComandata.hpp"
+#include "CafeaCopyMove.hpp"
 #include <iostream>
 
-CafeaComandata::CafeaComandata(int pret, std::list<std::string> ingrediente, char* diverse, char* cafea){
+CafeaCopyMove::CafeaCopyMove(int pret, std::list<std::string> ingrediente, char* diverse, char* cafea){
     this->pret = pret;
     this->ingrediente = ingrediente;
 
@@ -14,7 +14,7 @@ CafeaComandata::CafeaComandata(int pret, std::list<std::string> ingrediente, cha
     std::cout << "Constructor normal apelat!" << std::endl;
 }
 
-CafeaComandata::CafeaComandata(const CafeaComandata& other){
+CafeaCopyMove::CafeaCopyMove(const CafeaCopyMove& other){
     this->pret = other.pret;
     this->ingrediente = other.ingrediente;
 
@@ -26,7 +26,7 @@ CafeaComandata::CafeaComandata(const CafeaComandata& other){
     std::cout << "Copy constructor apelat!" << std::endl;
 }
 
-CafeaComandata::CafeaComandata(CafeaComandata&& other){
+CafeaCopyMove::CafeaCopyMove(CafeaCopyMove&& other){
     this->pret = other.pret;
     this->ingrediente = std::move(other.ingrediente);
     this->diverse = other.diverse;
@@ -41,48 +41,48 @@ CafeaComandata::CafeaComandata(CafeaComandata&& other){
     std::cout << "Move constructor apelat!" << std::endl;
 }
 
-CafeaComandata::~CafeaComandata(){
+CafeaCopyMove::~CafeaCopyMove(){
     delete[] diverse;
     delete[] cafea;
 
     std::cout << "Destructor apelat!" << std::endl;
 }
 
-const int CafeaComandata::getPret(){
+const int CafeaCopyMove::getPret(){
     return this->pret;
 }
 
-const std::list<std::string> CafeaComandata::getIngrediente(){
+const std::list<std::string> CafeaCopyMove::getIngrediente(){
     return this->ingrediente;
 }
 
-const char* CafeaComandata::getDiverse(){
+const char* CafeaCopyMove::getDiverse(){
     return this->diverse;
 }
 
-const char* CafeaComandata::getCafea(){
+const char* CafeaCopyMove::getCafea(){
     return this->cafea;
 }
 
-void CafeaComandata::setPret(int Pret){
+void CafeaCopyMove::setPret(int Pret){
     this->pret = Pret;
 }
 
-void CafeaComandata::setIngrediente(std::list<std::string> ingrediente){
+void CafeaCopyMove::setIngrediente(std::list<std::string> ingrediente){
     this->ingrediente = ingrediente;
 }
 
-void CafeaComandata::setDiverse(char* diverse){
+void CafeaCopyMove::setDiverse(char* diverse){
     this->diverse = new char[strlen(diverse) + 1];
     strcpy(this->diverse, diverse);
 }
 
-void CafeaComandata::setCafea(char* cafea){
+void CafeaCopyMove::setCafea(char* cafea){
     this->cafea = new char[strlen(cafea) + 1];
     strcpy(this->cafea, cafea);
 }
 
-void CafeaComandata::display(){
+void CafeaCopyMove::display(){
     std::cout << "Pret: " << this->pret << " lei" << std::endl;
     for(std::string i : this->ingrediente)
         std::cout << i << '|';
